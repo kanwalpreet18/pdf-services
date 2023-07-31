@@ -20,7 +20,7 @@ input_pdf = "./1QFY24_TCS_result.pdf"
 try:
 
     #Initial setup, create credentials instance.
-    credentials = Credentials.service_principal_credentials_builder().with_client_id('4be53c2632e44063bfb9f88346167953').with_client_secret('p8e-i61FoWkeyI0pwKVHLIOnTuDXcbdyL5Ah').build();
+    credentials = Credentials.service_principal_credentials_builder().with_client_id('id').with_client_secret('secret').build();
 
     #Create an ExecutionContext using credentials and create a new operation instance.
     execution_context = ExecutionContext.create(credentials)
